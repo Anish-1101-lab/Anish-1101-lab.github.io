@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import "katex/dist/katex.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply min-h-screen;
+  }
+
+  body {
+    @apply m-0 bg-zinc-50 font-sans antialiased text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100;
+  }
+}
+
+@layer components {
+  .inline-link {
+    @apply text-blue-700 transition hover:underline dark:text-blue-400;
+  }
+
+  .nav-link {
+    @apply hidden text-sm text-zinc-600 transition hover:text-zinc-900 hover:underline dark:text-zinc-300 dark:hover:text-zinc-50 sm:block;
+  }
+
+  .thumb-tile {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  a:hover > .thumb-tile,
+  .thumb-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  .row-fade-in {
+    animation: row-fade-in 0.5s ease both;
+  }
+}
+
+@keyframes row-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* SVG text in the Bypassing patching walk-through (PatchingAudit). */
+.patching-audit svg {
+  font-family: inherit;
+}
+.patching-audit .pa-lbl {
+  font-size: 11px;
+  fill: #666;
+}
+.patching-audit .pa-lbl.pa-faint {
+  font-size: 10px;
+  fill: #999;
+}
+.patching-audit .pa-stat {
+  font-size: 12px;
+  fill: #333;
+}
+
+/* SVG text in the lrnnx layer playground (LayerPlayground). */
+.layer-playground svg {
+  font-family: inherit;
+}
+.layer-playground .lp-lbl {
+  font-size: 11px;
+  fill: #666;
+}
+.layer-playground .lp-stat {
+  font-size: 12px;
+  font-weight: 700;
+  fill: #333;
+}
