@@ -100,7 +100,7 @@ export const publications = [
       { label: "arXiv", href: "https://arxiv.org/pdf/2602.08810" },
       {
         label: "poster",
-        href: "https://drive.google.com/file/d/17907yJUrdPwrZFEXxcUU_sisGab2Glzz/view",
+        href: "https://drive.google.com/file/d/15R_Wu-JmOTsWpT_shy2XdQ_SwhuAUEl9/view?usp=sharing",
       },
       { label: "code", href: "https://github.com/SforAiDl/lrnnx" },
     ],

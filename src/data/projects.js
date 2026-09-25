@@ -48,7 +48,7 @@ export const projects = {
       { label: "arXiv", href: "https://arxiv.org/abs/2602.08810" },
       {
         label: "poster",
-        href: "https://drive.google.com/file/d/17907yJUrdPwrZFEXxcUU_sisGab2Glzz/view",
+        href: "https://drive.google.com/file/d/15R_Wu-JmOTsWpT_shy2XdQ_SwhuAUEl9/view?usp=sharing",
       },
       { label: "code", href: "https://github.com/SforAiDl/lrnnx" },
     ],
@@ -248,7 +248,7 @@ logits = model(input_ids)`,
       },
     ],
     publication:
-      "Karan Bania*, Soham Kalburgi*, Manit Tanwar*, Dhruthi*, Aditya Nagarsekar*, Harshvardhan Mestha*, Naman Chibber*, Raj Deshmukh*, Anish Sathyanarayanan*, Aarush Rathore*, Pratham Chheda*. *lrnnx: A library for Linear RNNs.* Student Research Workshop at EACL 2026. [ACL Anthology](https://aclanthology.org/2026.eacl-srw.60.pdf) · [arXiv:2602.08810](https://arxiv.org/abs/2602.08810) · [poster](https://drive.google.com/file/d/17907yJUrdPwrZFEXxcUU_sisGab2Glzz/view).",
+      "Karan Bania*, Soham Kalburgi*, Manit Tanwar*, Dhruthi*, Aditya Nagarsekar*, Harshvardhan Mestha*, Naman Chibber*, Raj Deshmukh*, Anish Sathyanarayanan*, Aarush Rathore*, Pratham Chheda*. *lrnnx: A library for Linear RNNs.* Student Research Workshop at EACL 2026. [ACL Anthology](https://aclanthology.org/2026.eacl-srw.60.pdf) · [arXiv:2602.08810](https://arxiv.org/abs/2602.08810) · [poster](https://drive.google.com/file/d/15R_Wu-JmOTsWpT_shy2XdQ_SwhuAUEl9/view?usp=sharing).",
     bibtex: `@inproceedings{bania-etal-2026-lrnnx,
     title = "lrnnx: A library for Linear {RNN}s",
     author = "Bania, Karan  and
